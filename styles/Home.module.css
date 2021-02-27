@@ -1,0 +1,13 @@
+.App {
+  background-color: #f2f2f2;
+  padding: 25px;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.MainBody{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+

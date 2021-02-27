@@ -1,0 +1,68 @@
+.GistContainer {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px 0;
+    flex: 1 0 auto;
+    max-width: 100%;
+}
+
+.DetailText {
+    color: #454a8b;
+    margin: 0 5px;
+}
+
+.GistDetails {
+    margin: 0 20px;
+    font-size: 14px;
+}
+
+.InfoList {
+    margin: 10px 0;
+}
+
+.GistDetails h3 {
+    color: #454a8b;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.GistFiles {
+    display: flex;
+    align-items: center;
+}
+
+.GistFiles ul {
+    margin: 0;
+    padding: 0 15px;
+    list-style-type: none;
+}
+
+.GistFiles ul > li {
+    display: inline-block;
+    background: green;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.GistFiles ul > li:first-child {
+    margin-left: 0;
+}
+
+.Forks {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .GistContainer {
+        width: 100%;
+    }
+}
